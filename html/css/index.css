@@ -1,0 +1,83 @@
+body{ background:#EDEDED;}
+.allaifun{ min-width:1014px; margin:0 auto;}
+.titlenav{ height:80px; min-width:980px;}
+.s_ipt_wr{ width: 533px; height: 30px; background:#fff; display: inline-block;margin-right: 5px;border: 1px solid #cdcdcd;border-top: 2px solid; border-color: #718b13 #cdcdcd #cdcdcd #9a9a9a;vertical-align: middle; margin-left:15px;}
+.inputs{ width: 520px; height: 22px;font: 15px/22px arial;margin: 5px 0 0 7px; color:#999; outline: 0;background: #fff;}
+.search_ipt{ width:95px; height:30px; line-height:30px; font-size:14px; display: inline-block; cursor:pointer; text-align:center; background:#cc0033; color:#fff; border:1px #8c0023 solid;}
+.mod_nav{ width:100%; background:#636363; height:38px;}
+.mod_nav ul li { float: left; height: 38px; }
+.mod_nav ul li .current{ background:#cc0033;}
+.mod_nav ul li a{ display:inline-block; text-decoration:none; height:100%; line-height:38px;  padding: 0 20px;  font-size: 15px; color: #fff;font-family: "microsoft yahei","宋体","arial";}
+.mod_nav ul li a:hover{ background:#3c3c3c; -webkit-transition:all 0.5s;}
+.commonlist{ margin:0 auto;}
+.commonlistmp{ padding-top:25px; float:left;}
+.imglist{ margin-top:20px;}
+.commonlistmp h2{ font-size:35px; line-height:35px; color:#6c6c6a; font-weight:normal; font-family:"Microsoft YaHei";}
+.imglist .leftlist{ width: 226px; float: left;margin-right: 3px;_margin-right: 0;}
+.ulli{ margin:0 auto;}
+
+.channel-tag { list-style: none;float: left;width: 74px;border-right: 1px solid;border-bottom: 1px solid;height: 71px;line-height: 71px;text-align: center;color: #fff;transition: opacity .3s;}
+.tag-line-top { height: 70px;line-height: 70px;  border-color: #7e65ab;}
+.mingxing .tags{ list-style: none; width: 224px;border: 1px #795fa6 solid;border-radius: 2px; float:left;}
+.mingxing .tag-1 { background-color: #795fa6;}
+.mingxing .tag-1:hover{ background:#9d82cc; moz-transition: background 0.5s ; -webkit-transition: all 0.5s; -o-transition: all 0.5s ;transition:all 0.5s;}
+.mingxing .tag-2{ background:#9177c0;} 
+.mingxing .tag-2:hover{ background:#7255a6; moz-transition: background 0.5s ; -webkit-transition: all 0.5s; -o-transition: all 0.5s ;transition:all 0.5s;}
+.mingxing .tag-line-top { height: 70px;line-height: 70px;  border-color: #7e65ab;}
+
+.gaoxiao .tag-line-top { height: 70px;line-height: 70px;  border-color: #ec9233;}
+.gaoxiao .tags{ list-style: none; width: 224px; border: 1px #ec9233 solid;border-radius: 2px; float:left;}
+.gaoxiao .tag-1 { background-color:#ec9233;}
+.gaoxiao .tag-1:hover{ background:#ec9438; moz-transition: background 0.5s ; -webkit-transition: all 0.5s; -o-transition: all 0.5s ;transition:all 0.5s;}
+.gaoxiao .tag-2{ background:#ee9c45;} 
+.gaoxiao .tag-2:hover{ background:#ee9639; moz-transition: background 0.5s ; -webkit-transition: all 0.5s; -o-transition: all 0.5s ;transition:all 0.5s;}
+
+
+.tag-line-top .tag {display: block;color: #fff;width: 42px;padding: 0 16px; line-height: 71px; height: 71px;}
+.tag .txt { display: inline-block;font-size: 14px;vertical-align: middle;}
+.tag-line-end { border-right: 0;}
+.middle { _margin-left: 226px;_margin-right: 277px;height: 289px;overflow: hidden; float:left;}
+.imgs-ctn { height: 100%;}
+.mod-imgs-ctn {position: relative;height: 100%;}
+.ready { opacity: 1;visibility: visible;display: block;}
+.mod-rep-img { position: absolute;overflow: hidden;border-radius: 2px;border-bottom: 1px solid #d2d1d1;box-shadow: 0 1px 0 #e9e7e8;}
+.mod-imgs-ctn .cover { display: block;height: 100%;overflow: hidden;}
+.mod-imgs-ctn .desc { position: absolute;bottom: 10px;left: 11px;color: #fff;background: url(../images/title-bg.png) right -25px no-repeat;_background: #7a7e89;_bottom: 0;_left: 0;padding-right: 13px;_line-height: 18px;}
+.mod-imgs-ctn .desc .txt { background: url(../images/title-bg.png) left 0 no-repeat;_background: #7a7e89;display: inline-block;padding-left: 13px;line-height: 25px;}
+.right { width: 260px; float: right; margin-left: 20px;}
+.mod-hottest {border-radius: 2px;}
+.hottest-today { display: block;border-radius: 2px;overflow: hidden;height: 142px;}
+.right .hottest-today .today-title { background-color: #795fa6;border-color: #7e65ab;}
+.hottest-today .today-title { background: url(../images/hottest-txt.png) center center no-repeat;line-height: 69px;height: 69px;width: 84px;border: 1px solid;text-align: center;_padding-top: 10px;_text-indent: 0;_background: 0 0;_height: 59px;}
+.hottest-today .today-item { float: left;width: 86px;height: 71px;overflow: hidden;}
+.hottest-today .today-title .txt { display: none;_font-size: 20px;_display: inline-block;_vertical-align: middle;_width: 40px;_color: #fff;}
+.mod-hottest .bottom { margin-top: 3px;}
+.hottest-page { overflow: hidden;height: 142px;width: 260px;border-radius: 2px;}
+.hottest-page .page-link { display: block;position: relative;height: 100%;overflow: hidden;_width: 260px;}
+.hottest-page .desc { position: absolute;bottom: 0;left: 0;width: 100%;text-decoration: none;color: #fff;padding: 10px 0;}
+.hottest-page .desc .title {color: #fff;padding-left: 11px;font-size: 14px;font-weight: 700;}
+.img:hover{ opacity:0.8;}
+
+.description { display: block;padding: 0 16px;margin: 10px 0;line-height: 1.35em;overflow: hidden;word-wrap: break-word;}
+.attribution { color: #999;border-top: 1px solid #F2F2F2;background: #FAFAFA;position: relative;padding: 0 15px;}
+.box a.img { background-color: #faf7f7; width: 34px; height: 34px;margin: 16px 0;display: block;float: left;}
+.attribution .avt { width: 34px;height: 34px;display: block;}
+.attribution .text { margin-left: 34px;height: 51px;padding: 15px 0 0 10px;line-height: 1.5;}
+.attribution a { color: #6e8611;}
+.label{ padding:5px 0;}
+.labelButton{ padding:2px 4px; cursor:pointer;}
+.labelButton:hover{ border-radius:10px; text-decoration:none; background:#6e8611; color:#fff; padding:2px 4px;}
+
+.wrapper { position: relative;margin: 0 auto;border: 0;}
+
+
+
+/*到顶部*/
+#goTopBtn { bottom:20px; margin: 0 auto; position: fixed; right:15px;  text-align: left;  z-index: 999; }
+#goTopBtn .btn-gototop { width:60px; height:60px; cursor:pointer; text-indent:-9999px; display:block; background:url(../images/top-icon.png) no-repeat; background-position:0 0;}
+#goTopBtn .btn-gototop:hover{ background-position:0 -66px; }
+
+.box { margin-bottom: 20px;float: left;width: 236px;font-size: 12px;background-color: #fff;box-shadow: 0 1px 3px rgba(0,0,0,.3);-moz-box-shadow: 0 1px 3px rgba(0,0,0,.3);-webkit-box-shadow: 0 1px 3px rgba(0,0,0,.3); }
+.box:hover{ opacity:0.8;}
+.box img {max-width: 100%}
+.container-fluid{padding:10px 0;}

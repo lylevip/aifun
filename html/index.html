@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>aifun--图片宝典</title>
+<link href="css/base.css" rel="stylesheet">
+<link href="css/index.css" rel="stylesheet">
+<script type="text/javascript" src="js/common/jquery-1.10.2.min.js"></script>
+<script src="js/common/jquery.masonry.min.js"></script>
+<script src="js/aifun.min.js"></script>
+<script src="js/jquery.fixtop.js"></script>
+<script>
+		$(function(){
+            var $container = $('#masonry'),sTimer;
+            $container.imagesLoaded(function(){
+                  $container.masonry({
+					itemSelector: '.box',
+					columnWidth: 236,
+					isFitWidth:true,
+					gutterWidth:15,
+					
+                  });
+            });
+            $(window).scroll(function scrollHandler(){
+                clearTimeout(sTimer);
+                sTimer = setTimeout(function() {
+                    if(window.loaded == 1){$(window).unbind("scroll", scrollHandler);}
+                    var c=document.documentElement.clientHeight || document.body.clientHeight, t=$(document).scrollTop();
+                    if(t+c >= $container.offset().top+$container.height()){loadMore();}
+                }, 100);
+            });
+            var jLoading = $('#loading');
+            function loadMore()
+            {
+                var html="<div class='box'><img src='http://img0.bdstatic.com/img/image/6446027056db8afa73b23eaf953dadde1410240902.jpg' /></div>";
+                html+="<div class='box'><img src='http://c.hiphotos.baidu.com/image/w%3D230/sign=ffe89dcbd2c8a786be2a4d0d5708c9c7/34fae6cd7b899e51d544072541a7d933c8950d3c.jpg' /></div>";
+                html+="<div class='box'><img src='http://h.hiphotos.baidu.com/image/w%3D230/sign=a8094aa88126cffc692ab8b189014a7d/10dfa9ec8a1363277d9cfe02928fa0ec08fac789.jpg'/></div>";
+                html+="<div class='box'><img src='http://img0.bdstatic.com/img/image/6446027056db8afa73b23eaf953dadde1410240902.jpg'  /></div>";
+                html+="<div class='box'><img src='http://c.hiphotos.baidu.com/image/w%3D230/sign=ffe89dcbd2c8a786be2a4d0d5708c9c7/34fae6cd7b899e51d544072541a7d933c8950d3c.jpg' /></div>";
+                html+="<div class='box'><img src='http://h.hiphotos.baidu.com/image/w%3D230/sign=a8094aa88126cffc692ab8b189014a7d/10dfa9ec8a1363277d9cfe02928fa0ec08fac789.jpg'  /></div>";
+				$container.append(html).masonry("reload");
+                jLoading.hide();
+            }    
+      });
+</script>
+</head>
+
+<body>
+<div class="allaifun">
+<div class="headerwidth">
+  <div class="titlenav"> <img src="images/logo.png" /> <span class="s_ipt_wr">
+    <input  class="inputs" placeholder="搜索你想要看的图片">
+    </span> <span class="search_ipt">搜索</span> </div>
+  <div id="myBar" class="mod_nav bar">
+    <ul class="ulli">
+      <li><a class="current" href="#">首页</a></li>
+      <li><a href="#">明星</a></li>
+      <li><a href="#">美女</a></li>
+      <li><a href="#">旅游</a></li>
+      <li><a href="#">搞笑</a></li>
+      <li><a href="#">图说天下</a></li>
+      <li><a href="#">摄影</a></li>
+      <li><a href="#">时尚</a></li>
+      <li><a href="#">美食</a></li>
+      <li><a href="#">更多</a></li>
+    </ul>
+  </div>
+</div>
+	<div class="commonlist clearfix">
+		<div id="masonry" class="container-fluid">
+		  <div class="box">
+           <a href="/pins/258625198/" target="_self" rel="">
+               <img src="http://img.hb.aicdn.com/9d9607b16ca1d09f8aa069ef2f6183f80463a5e31bbba-XmQh5L_fw236" alt="elainecui采集到旅行">
+            </a>
+            <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <a href="/lilachyacinth/" title="镜面成像" rel="nofollow" class="img x">
+                 <img src="http://img.hb.aicdn.com/ec661ccf4d8c8a332d502bd8e8c57e08fb1744241749-VMS7Cz_sq75sf" class="avt"></a><div class="text"><div class="inner"><div class="line"><a href="/lilachyacinth/" class="author x">镜面成像</a>&nbsp;采集到&nbsp;</div>
+                 <div class="line">
+                <a href="/boards/1802970/" rel="" class="x">All About Taylor Swift</a></div><a title="评论" class="replyButton"></a>
+                </div>
+                </div>
+            </div>
+           </div>
+		  <div class="box">
+           <a href="/pins/258625198/" target="_self" rel="" > <img src="http://img.hb.aicdn.com/c0fd46879d78931879cba418a132954b589ade0d1b26e-Q1ARfm_fw236"></a>
+              <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div>
+          </div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" > <img src="http://img.hb.aicdn.com/66713863ad62158238bd996edbe834dcd3291378e4a0-xIS8bG_fw236"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://img.hb.aicdn.com/9f8c0f535d2c7ca9c206441467528b598cb3af773c105-fco7RW_fw236"> </a> <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://img.hb.aicdn.com/211147309c82990ad4b7bc1a3ed4ce82bf80d7aa17e82-uguB7A_fw236"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://img.hb.aicdn.com/c5f4d60783d2affd852a929e894d256fdfd12c8338c7a-pcYbrj_fw236"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://img.hb.aicdn.com/269cc4ce856e488e563ce7bc20be73440956480727f13-0gOesA_fw236"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://img.hb.aicdn.com/d700468403e94b5b9e6f61ce2d87781e36b7199e3bde2-HkZLH9_fw236"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://e.hiphotos.baidu.com/image/w%3D230/sign=e9bfadd04b540923aa69647da259d1dc/c9fcc3cec3fdfc03f64bb04bd63f8794a4c22615.jpg"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		  <div class="box"> <a href="/pins/258625198/" target="_self" rel="" ><img src="http://f.hiphotos.baidu.com/image/w%3D230/sign=1d32d901b9a1cd1105b675238913c8b0/d01373f082025aaf41e143faf8edab64034f1a2b.jpg"></a>  <p class="description">Taylor Swift </p>
+            <div class="convo attribution clearfix">
+            <div class="label"> 标签：<a title="评论" class="labelButton">好标签</a></div>
+            </div></div>
+		</div>
+		<div id="loading">loading</div>
+	</div>
+	<!--返回头部start -->
+    <div class="gotopbox">
+    <div id="goTopBtn"> <a class="btn-gototop" id="btn-gototop">到顶部</a> </div>
+  </div>
+  <!--返回头部end-->
+</div>
+
+<!--<div style="display:none;">
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F585383d457baef5989d81079955f1edb' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</div>
+-->
+
+</body>
+</html>
